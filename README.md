@@ -26,6 +26,7 @@
   
 ### 7. 삼성 SDS Britics AI - 서비스 개발 (2019.08)
   - 주제 : Text를 활용한 지원자의 MBTI 예측 서비스
+  - [\[코드\] 삼성 SDS Britics AI 모델 구현 django](https://github.com/minyong-shin/SDS_project_deploy-heroku-/tree/master)
   - 수상 : 3등
   
 ### 8. COMPAS 김해시 화재예측 (2020.01)
