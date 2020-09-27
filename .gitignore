@@ -1,0 +1,22 @@
+*.txt
+*.csv
+*.xlsx
+*.xls
+*.pdf
+*.pptx
+203675
+203675_예선
+초기 데이터
+data
+*.zip
+*.png
+*.jpg
+chromedriver
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.shx
+smy_data
+tl_emd_seoul_4326
+*.docx
