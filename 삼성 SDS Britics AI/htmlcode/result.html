@@ -1,0 +1,435 @@
+﻿<!DOCTYPE html>
+<!-- {% load static %}  -->
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width,
+           initial-scale=1,
+           user-scalable=no,
+           shrink-to-fit=no">
+    <title>SAMSUNG SDS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawTest);
+
+        function drawTest() {
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Name');
+            data.addColumn('number', 'Count');
+            data.addRows([
+            ['Sepal.Length', {{value1}}],
+            ['Sepal.Width', {{value2}}],
+            ['Petal.Length', {{value3}}],
+            ['Petal.Width', {{value4}}]
+            ]);
+
+            var options = {title:'TESTING',
+                       width:400,
+                       height:300,
+                       legend: 'none'};
+
+            var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+        }      
+    </script>
+
+    <script type="text/javascript">
+    $(window).load(function() {    
+         $('#loading').hide();  
+        });
+    </script>
+    
+</head>
+
+<style>
+    @font-face { font-family: 'BMJUA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff'); font-weight: normal; font-style: normal; }
+    
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 1.31vw;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .slide-1 {
+        background-color : #CC1359;
+    }
+
+    .slide-2 {
+        background-color : #00CC6C;
+    }
+
+    .slide-3 {
+        background-color : #51269E;
+    }
+
+    .slide-4 {
+        background-color : #FF6B00;
+    }
+
+    .swiper-pagination-bullet {
+        width: 0.73vw;
+        height: 0.73vw;
+    }
+
+    .swiper-container-vertical>.swiper-pagination-bullets {
+        right: 1.46vw;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color : #fff;
+    }
+
+    .inner-content {
+        width: 90%;
+        height: 85%;
+        color: #fff;
+        text-align: center;
+    }
+
+    .inner-content-white {
+        padding-top: 2vw;
+        font-family: BMJUA;
+        background-color: #fff;
+        width: 90%;
+        height: 85%;
+        border-radius: 5px;
+        color: #000;
+        text-align: center;
+    }
+
+    .inner-content h1 {
+        font-family: BMJUA;
+        color: #fff;
+        font-size: 2.2vw;
+    }
+
+    .inner-content-white h1 {
+        font-family: BMJUA;
+        color: #000;
+        font-size: 2.9vw;
+        margin-top: 1.5vw;
+    }
+    
+    .inner-content-white p {
+        line-height:2.2em;
+        font-size: 1.61vw;
+    }
+
+    .inner-content-white span {
+        font-size: 1.31vw;
+    }
+
+    .slide1-img {
+        width: 30%;
+        height: 30%;
+    }
+
+    .wheel {
+        font-size: 1.46vw;
+    }
+    
+    .inner-wrapper {
+        width: 50%;
+        height: 80%;
+        display: inline-block;
+    }
+
+    .wrapper {
+        justify-items: center;
+        /* margin-top: 1.46vw; */
+        padding: 1.46vw 2.92vw 1.46vw 2.92vw;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0.73vw;
+        grid-auto-rows: minmax(7.32vw, auto);
+    }
+
+    .wrap-in {
+        font-size: 2vw;
+        width: 100%;
+        padding-top: 30%;
+        background-color: #000;
+        color: #fff;
+        border-radius: 0.73vw;
+    }
+
+    .wrapper .side-1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .wrapper .side-2 {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .wrapper .side-3 {
+        grid-column: 3;
+        grid-row: 1;
+    }
+    .wrapper .side-4 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .wrapper .side-5 {
+        grid-column: 3;
+        grid-row: 2;
+    }
+    .wrapper .side-6 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .wrapper .side-7 {
+        grid-column: 2;
+        grid-row: 3;
+    }
+    .wrapper .side-8 {
+        grid-column: 3;
+        grid-row: 3;
+    }
+
+    .wrapper .center {
+        padding-top: 23%;
+        grid-column: 2;
+        grid-row: 2;
+        background-color: #fff;
+    }
+
+    .left {
+        float: left;
+        width: 48%;
+        height: 100%;
+    }
+
+    .right {
+        float: right;
+        width: 48%;
+        height: 100%;
+    }
+
+    .plot.left {
+        float: left;
+        width: 32%;
+        height: 100%;
+    }
+
+    .plot.center {
+        display: inline-block;
+        width: 32%;
+        height: 100%;
+    }
+
+    .plot.right {
+        float: right;
+        width: 32%;
+        height: 100%;
+    }
+
+    .cloud {
+        width: 24vw;
+        height: auto;
+    }
+
+    .wrap-in.center h1{
+        margin-top: 0;
+    }
+</style>
+
+<body>
+
+
+    <!-- 당신은 {{pred}}의 성격을 지녔습니다. 
+    {{value1}}
+    {{value2}}
+    {{value3}}
+    {{value4}}-->
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- MBTI 유형 -->
+            <div class="swiper-slide slide-1">
+                <div class="inner-content-white">
+                    <p>입력받은 데이터를 바탕으로 분석한 결과 당신의 성격 유형은 다음과 같습니다.</p>
+                    <div class="inner-wrapper">
+                        <div class="wrapper">
+                            <div class="wrap-in side-1">잘 모르겠다</div>
+                            <div class="wrap-in side-2">오히려 잘 맞네</div>
+                            <div class="wrap-in side-3">바꿨어</div>
+                            <div class="wrap-in side-4">도대체 왜 그래</div>
+                            <div class="wrap-in side-5">그렇게 좋아</div>
+                            <div class="wrap-in side-6">정말로 미안해</div>
+                            <div class="wrap-in side-7">너무 짜증나</div>
+                            <div class="wrap-in side-8">이렇게 삐지는</div>
+                            <div class="wrap-in center">
+                                <h1>INFP형</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <p>마우스 휠을 통해 결과를 계속해서 확인하세요!</p>
+                </div>
+            </div>
+            <div class="swiper-slide slide-2">
+                <div class="inner-content">
+                    <div class="inner-content-white left">
+                        <h1>INFP 유형의 특징</h1>
+                        <i style="width: 8%;
+                              vertical-align: middle;
+                              margin-top: 2.2vw;
+                              height: 0.15vw;
+                              display: inline-block;
+                              background: #CC1A00;"></i>
+                        <p style="line-height:2.2em;
+                                  margin-top: 2.2vw;
+                                  font-size: 1.8vw;">
+                            이상주의자 &nbsp; <span>본인의 이상에 따르며, 타고난 선함을 믿습니다.</span> <br>
+                            윤리적 &nbsp; <span>선과 악이 명확하고, 신념이 확고합니다.</span><br>
+                            동정심 &nbsp; <span>타인에 대한 존중과 관심을 보입니다.</span><br>
+                            독립성 &nbsp; <span>본인을 신뢰하며, 이에 따라 직관적으로 결정합니다.</span><br>
+                            예술성 &nbsp; <span>자신의 감정, 이상, 내면을 표현하고 싶어합니다.</span><br>
+                            섬세함 &nbsp; <span>매우 섬세하여, 사소한 물질과 감각에 감사하는 법을 압니다.</span><br>
+                            부주의함 &nbsp; <span>때로는 직관적인 탓에, 정리정돈이 되지 않는 경우가 있습니다.</span>
+                        </p>
+                    </div>
+                    <!-- <i style="width:1px;
+                              vertical-align: middle;
+                              margin-top: 8%;
+                              height: 50%;
+                              display: inline-block;
+                              background: #008044;"></i> -->
+                    <div class="inner-content-white right">
+                        <h1>추천 직업</h1>
+                        <i style="width: 8%;
+                        vertical-align: middle;
+                        margin-top: 2.2vw;
+                        height: 0.15vw;
+                        display: inline-block;
+                        background: #CC1A00;"></i>
+                        <p style="
+                        line-height:2.2em;
+                        margin-top: 2.2vw;
+                        font-size: 1.8vw;">
+                        음악가 <br>
+                        심리학자 <br>
+                        배우 <br>
+                        PD <br>
+                        물리치료사 <br>
+                        연구원 <br>
+                        통역가
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide slide-3">
+                <div class="inner-content">
+                    <div class="inner-content-white plot left">
+                        <h1>워드 클라우드</h1>
+                        <p style="font-size: 1.1vw;
+                                  margin-bottom: 2.5vw;">당신의 글 및 대화를 바탕으로 워드 클라우드를 그려보았습니다.</p> 
+                        <br>
+                        <img class="cloud" src="wordcloud.png">
+                    </div>
+                    <div class="inner-content-white plot center">
+                        <h1>키워드 분석</h1>
+                        <p style="font-size: 1.1vw;
+                                  margin-bottom: 2.5vw;">당신의 성격을 추정하는데 주요한 영향을 미친 단어들입니다.</p> 
+                        <br>
+                        <img class="cloud" src="text.png">
+                    </div>
+                    <div class="inner-content-white plot right">
+                        <h1>구성 요소 분석</h1>
+                        <p style="font-size: 1.1vw;">당신을 만드는 성격 구성의 정도를 나타냅니다.</p> 
+                        <br>
+                        <img class="cloud" style="width: 22vw;
+                                                  height: auto;" src="plot.png">
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="swiper-slide slide-4">
+                <div class="inner-content">
+                    <h1>각종 시각화</h1>
+                    <p>여긴 여러 시각화 자료들을 넣으면 좋을것 같씁니다.</p>
+                    <p>근데 뭐가 들어갈 수 있을지 아직은 잘 모르겠쓰ㅃ니따..</p>
+                </div>
+            </div> -->
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    
+
+    <div id="chart_div"></div>
+    <div id="loading">
+        <img id="loading-image" src="https://loading.io/spinners/ripple/index.ripple-radio-preloader.gif" alt="Loading..." /></div>
+</body>
+
+<style>
+    #loading {
+        width: 100%;   
+        height: 100%;   
+        top: 0px;
+        left: 0px;
+        position: fixed;   
+        display: block;   
+        opacity: 0.7;   
+        background-color: #fff;   
+        z-index: 99;   
+        text-align: center; }  
+        
+    #loading-image {   
+        position: absolute;   
+        top: 50%;   
+        left: 50%;  
+        z-index: 100; } 
+</style>
+
+<script>
+    // 슬라이더
+    var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        spaceBetween: 0,
+        mousewheel: true,
+        pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        },
+    });
+</script>
+
+</html>
