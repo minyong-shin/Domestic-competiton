@@ -46,5 +46,5 @@
   
 ### 10. 도서 빅데이터 공모전 (2020.09)
   - 주제 : 포스트 코로나 시대에 따른 스마트 도서관 최적 입지 선정 모형
-  - 수상 : 최소 우수상 (아직 미정)
+  - 수상 : 대상
   - [분석자료](https://github.com/minyong-shin/Domestic-competiton/blob/master/%EB%8F%84%EC%84%9C%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0/%EC%8B%A0%EA%B7%9C%EC%84%9C%EB%B9%84%EC%8A%A4%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4_%EC%8A%A4%EB%A7%88%ED%8A%B8%20%EB%8F%84%EC%84%9C%EA%B4%80%20%EC%9C%84%EC%B9%98%20%EC%84%A0%EC%A0%95.pdf)
