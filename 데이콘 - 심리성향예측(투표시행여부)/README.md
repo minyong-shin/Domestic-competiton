@@ -1,67 +1,74 @@
-# 국내 공모전
+# 대회 회고
 
-### 1. 기상청 날씨 빅데이터 콘테스트 (2018.08)
-  - 주제 : 시청률과 날씨와의 관계 파악 후 날씨가 시청률에 미치는 영향 분석 및 예측
-  - 수상 : 입상
-  - [분석자료](https://github.com/minyong-shin/Domestic-competiton/blob/master/L.POINT%20BIGDATA%20COMPETITION(2019.01)/%EC%A0%9C%EC%B6%9C%EC%9E%90%EB%A3%8C.pdf)
-  
-### 2. 서울시 빅데이터 공모전 (2018.09)
-  - 주제 : 서울시 구별 특성을 고려한 종합환경대책 분석 (열섬 중심)
-  - 수상 : 장려상
-  - [분석자료](https://github.com/minyong-shin/Domestic-competiton/blob/master/%EC%84%9C%EC%9A%B8%EC%8B%9C%20%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%BA%A0%ED%8D%BC%EC%8A%A4%20%EA%B3%B5%EB%AA%A8%EC%A0%84(2018.08)/%5B2018%EC%84%9C%EC%9A%B8%EC%8B%9C%EB%B9%85%EC%BA%A0%EC%83%81%EC%8B%9C%EA%B3%B5%EB%AA%A8%EC%A0%84%5D_%5BMSG%5D_%EB%B6%84%EC%84%9D%EA%B2%B0%EA%B3%BC%EC%84%9C%20-%20%EB%B3%B8%EC%84%A0%20(1).pdf)
-  
-### 3. 산업단지 빅데이터 아이디어 공모전 (2018.10)
-  - 주제 : 산업단지 공단 내 문화생활 활성화 및 정보 제공 시스템 구축 방안(w2v, k-means clustering)
-  - 수상 : 장려상
-  - [분석자료](https://github.com/minyong-shin/Domestic-competiton/blob/master/%EC%82%B0%EC%97%85%EB%8B%A8%EC%A7%80%20%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EA%B3%B5%EB%AA%A8%EC%A0%84(2018.10)/%EC%82%B0%EC%97%85%EA%B3%B5%EB%8B%A8%20pdf.pdf)
-  
-### 4. 문화관광 빅데이터 분석 대회 (2018.11)
-  - 주제 : 7-11(seven to eleven) 52시간 근무제에 따른 문화생활 활성화를 위한 개인별 맞춤 여가 추천
-  - 수상 : 은상
-  - [분석자료](https://github.com/minyong-shin/Domestic-competiton/blob/master/%EB%AC%B8%ED%99%94%EA%B4%80%EA%B4%91%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EB%8C%80%ED%9A%8C(2018.09)/1%EC%B0%A8%20%EB%B3%B4%EA%B3%A0%EC%84%9C_DATA58.pdf)
-  
-### 5. 프로농구 데이터 활용 경진대회 (2018.12)
-  - 주제 : 웹데이터를 활용한 텍스트 분석 및 프로농구 흥행지수 개발
-  - 수상 : 특별상
-  - [분석자료](https://github.com/minyong-shin/Domestic-competiton/blob/master/%ED%94%84%EB%A1%9C%EB%86%8D%EA%B5%AC%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%99%9C%EC%9A%A9%EB%B6%84%EC%84%9D%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C(2018.12)/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf)
- 
-### 6. L.Point Bigdata Competiton (2019.01)
-  - 주제 : category2vec을 활용한 상품 소분류별 군집 분석 및 제품 구매 유도 추천시스템
-  - 수상 : X
-  
-### 7. 삼성 SDS Britics AI - 서비스 개발 (2019.08)
-  - 주제 : Text를 활용한 지원자의 성격유형 분류 모델 서비스
-  - 수상 : 3등
-  - [분석자료](https://github.com/minyong-shin/Domestic-competiton/blob/master/%EC%82%BC%EC%84%B1%20SDS%20Britics%20AI/%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EB%B0%98%20%EC%84%B1%EA%B2%A9%20%EC%9C%A0%ED%98%95%20%EB%B6%84%EB%A5%98%20%EB%AA%A8%EB%8D%B8%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B8%B0%ED%9A%8D%EC%84%9C.pdf)
-  - [\[코드\] 삼성 SDS Britics AI 모델 구현 django](https://github.com/minyong-shin/SDS_project_deploy-heroku-/tree/master)
-  
-### 8. COMPAS 김해시 화재예측 (2020.01)
-  - 주제 : 건물 데이터와 주변 환경 데이터를 활용한 화재 예측 모델 개발
-  - 수상 : X
-  
-### 9. 기상청 빅데이터 콘테스트 - 현대제철 결로현상 예측 (2020.07)
-  - 주제 : 현대제철 공장내 결로현상 예측 모델 개발
-  - 수상 : 입상
-  - [분석자료](https://github.com/minyong-shin/Domestic-competiton/blob/master/%EA%B8%B0%EC%83%81%EC%B2%AD%20%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%BD%98%ED%85%8C%EC%8A%A4%ED%8A%B8%20-%20%ED%98%84%EB%8C%80%EC%A0%9C%EC%B2%A0/%EA%B8%B0%EC%83%81%EC%B2%AD%20-%20%ED%98%84%EB%8C%80%EC%A0%9C%EC%B2%A0%20%EA%B2%B0%EB%A1%9C%ED%98%84%EC%83%81%20%EC%98%88%EC%B8%A1.pdf)
-  
-### 10. 도서 빅데이터 공모전 (2020.09)
-  - 주제 : 포스트 코로나 시대에 따른 스마트 도서관 최적 입지 선정 모형
-  - 수상 : 대상
-  - [분석자료](https://github.com/minyong-shin/Domestic-competiton/blob/master/%EB%8F%84%EC%84%9C%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0/%EC%8B%A0%EA%B7%9C%EC%84%9C%EB%B9%84%EC%8A%A4%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4_%EC%8A%A4%EB%A7%88%ED%8A%B8%20%EB%8F%84%EC%84%9C%EA%B4%80%20%EC%9C%84%EC%B9%98%20%EC%84%A0%EC%A0%95.pdf)
-  
-# 국내 예측 대회(LeaderBoard Competition)
-### 1. 제주 신용카드 빅데이터 경진대회
-  - 주제 : 과거의 신용카드 사용이력 데이터를 활용하여 3개월 후의 카드 사용량을 예측하는 대회
-  - 등수 : 185/411
-  
-### 2. (CV)아리랑 위성영상 AI 객체 검출 경진대회
-  - 주제 : 위성 사진에 존재하는 물체를 인식하는 대회(object detection)
-  - 등수 : 42/69
-  
-### 3. AI 심리성향 예측 대회(진행중)
-  - 주제 : 심리관련 설문 조사 데이터를 활용하여 유권자들의 투표 여부를 예측
-  - 등수 : 13/493
-  
-### 4. 랜드마크 이미지 분류 대회(진행중)
-  - 주제 : 국내 랜드마크 image classification
-  - 등수 : 65/69
+- 대회요강: 설문 데이터로 각 투표권자들의 투표 시행 여부를 예측하는 대회.
+- 대회평가: AUC
+- 대회결과
+  - public: 47/581
+  - private: 97/581
+
+## 방법론
+  1. **데이터 전처리**
+    - 결측치 처리 x
+      - 데이터 결측치가 없었기 때문에 따로 처리하지 않음
+    - 전반적인 데이터 처리
+      - 상위 코드들을 리뷰해본 결과 특정 카테고리에서 비이상적인 수치값이 있엇는데 그부분을 제거하지 못함
+      - 설문 응답에 걸리는 시간이 왜도가 심한 것을 확인하여 log화 과정을 거침(성능 향상)
+    - 인코딩
+      - 아래의 세가지 방법론으로 검증셋 결과 추론
+        - label encoding
+        - target mean encoding
+        - dummy
+      - label encoding의 성능이 높은 것을 확인
+  2. **EDA, FE**
+    - EDA를 기반으로 변수 생성
+      - education, married 관련 변수로 성능향상
+      - 해당 변수들은 분포도를 통해서 변수 생성
+    - EDA를 통해서 Treshhold를 찾는데 집중함
+    - 기본적인 통계변수들을 생성
+  3. **Modeling**
+    - 사용한 모델
+      - LGBM
+      - XGB
+      - CATBoost
+    - 모델 방법론
+      - CV
+        - 5 fold를 사용
+      - ood_preds AUC가 높았던 데이터셋을 구성하여 사용
+      - training_auc, validation_auc를 동시에 고려
+        - 항상 training_auc보다 validation_auc가 안좋게 나왔기 때문에 과적합을 계속 의심함
+  4. **Model parameter 최적화**
+    - 사용된 방법론
+      - RandomGridSearch
+      - Bayesian optimization
+    - 최종 최적화 파라미터
+      - 베이지안 최적화 방식으로 하이퍼파라미터 최적화를 진행
+      - RandomGridSearch보다 높은 리더보드 성능을 보여줌
+      - 베이지안 파라미터 최적화를 공부하면서 배웠던 비교적 복잡하지 않은 데이터셋에서 좋은 성능을 보여줌
+  5. **Ensemble**
+    - 리더보드 성능이 좋았던 결과값들을 가중치 앙상블을 진행
+    - CATBoost 성능은 좋지 않았기 때문에 LGBM, XGB 두가지 모델로 앙상블을 진행
+  6. **Inference**
+    - 검증셋 결과 inference결과와 리더보드 결과의 상관관계가 없었기 때문에 리더보드를 통해서 성능 검증
+
+
+
+## 개선점 및 고려점(**우승자 코드를 리뷰해보고 작성함**)
+  - 우승자 코드로 배웠던 부분
+    - 다양한 방법론이 존재했지만 모델의 일반화 부분이 상당히 중요하다는 것을 느낌
+      - 현재 이 대회에서 생성한 결과값은 리더보드 성능이 가장좋은 결과값 두개를 0.7/0.3 가중치 앙상블을 진행했음
+      - 우승자 코드를 통해서 배울 수 있었던 것은 random_state를 다양하게 부여하면서 N개의 서로 다른 random_state모델을 생성한 다음 앙상블하는 방식을 배울 수 있었음
+      - 대회의 결과가 shakeup이 컸는데 중간에 코드공유로 올라온 뉴럴넷 모델을 앙상블한 사람들이 대부분 상위권을 차지한 것을 보고 뉴럴넷 모델로 추론한 결과값이 상당히 로버스트한 것을 알 수 있었음
+      - Feature selection방법론도 이론으로는 알고 있었으나 실제로 구현해보는 것이 꺼려졌는데 생각보다 쉽게 구현할 수 있는 것에 놀랐음(랜덤성을 반영하면 더 좋은 모델을 만들 수 있을듯)
+      - 우승자 코드는 서로 다른 random_state 4개의 Default 파라미터 LGBM을 4개 만들어 단순 산술평균 앙상블을 진행했는데 해당 부분에 교차검증 + 베이지안 최적화 방법론을 접목시키면 좀 더 성능이 높고 견고한 모델을 만들 수 있을 것이라 생각이 되었음
+
+  - **최종 리뷰**
+    - 아직 모델링을 하는데 테크니컬한 부분이 부족한 것을 느낌
+    - 모델을 생성할 때 리더보드 결과에만 치중하면 안된다는 것을 다시 한번 느낌... 모델 일반화가 굉장히 중요!
+    - validation set을 잘 만드는 것이 중요!
+    - 테스트 데이터를 예측할 때 oof_preds의 중요성을 느낌 꼭 저장하자!(앙상블 가중치 추출하기 위해서)
+    - 전통적인 정형화된 데이터는 LGBM이 비용대비 성능이 최고라고 생각되었는데, 다음 대회부터는 딥러닝 모델도 같이 앙상블하면 좋겠다고 생각함
+    - 이번 대회를 참여하면서 분석 -> 모델링 -> 추론 파이프라인에 신경을 썼다고 생각이 되었는데, 대회 후반으로 갈수록 엉망으로 바뀜... 다음부턴 명확하게 계획을 세우기로 함
+    - 리더보드와 검증 결과와의 수치 차이에 상관관계가 없다면 문제라고 인식하고 어떻게 하면 해결할 수 있는지 고민을 해볼 것
+
+
+
