@@ -1,4 +1,4 @@
-*.txt
+:*.txt
 *.csv
 *.xlsx
 *.xls
@@ -27,3 +27,4 @@ modeling_folder
 jeju_data_ver1
 covid_data
 catboost_info
+submission
