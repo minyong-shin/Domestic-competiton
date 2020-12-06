@@ -13,5 +13,6 @@
     3. TextToSequence
     4. padding(max:500)
     5. simpleDNN
+        - <img src = './image/dnn_model.png'> 
     6. 5fold cross-validation
     
