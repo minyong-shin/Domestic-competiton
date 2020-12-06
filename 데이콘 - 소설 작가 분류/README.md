@@ -28,7 +28,7 @@
     
 ## 아쉬웠던점 및 배울점
 - 상위권 코드
-    - [코드]('https://dacon.io/competitions/official/235670/codeshare/1894?page=1&dtype=recent&ptype=pub')
+    - [코드](https://dacon.io/competitions/official/235670/codeshare/1894?page=1&dtype=recent&ptype=pub)
     - XGB로 상위코드
 - 배울점
     - 텍스트 관련 대회는 당연히 모델들이 중요하겠지만 전처리와 변수생성 하는 부분이 상당히 중요한 것을 알게됨
