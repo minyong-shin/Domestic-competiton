@@ -8,4 +8,10 @@
 ## 분석 방법론
     
 - step1
-  - 
+    1. remove stopwords  
+    2. Text Tokenizing
+    3. TextToSequence
+    4. padding(max:500)
+    5. simpleDNN
+    6. 5fold cross-validation
+    
