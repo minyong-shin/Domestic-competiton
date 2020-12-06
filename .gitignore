@@ -8,8 +8,6 @@
 초기 데이터
 data
 *.zip
-*.png
-*.jpg
 chromedriver
 *.cpg
 *.dbf
