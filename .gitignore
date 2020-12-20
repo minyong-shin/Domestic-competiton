@@ -1,4 +1,4 @@
-:*.txt
+*.txt
 *.csv
 *.xlsx
 *.xls
@@ -26,3 +26,5 @@ jeju_data_ver1
 covid_data
 catboost_info
 submission
+data
+
