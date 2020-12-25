@@ -12,7 +12,7 @@
 
 ## Ideation list
 
-- idea 1: use part test data
+- idea 1: use part test data(해당 아이디어로 픽스)
   - Test 데이터를 부분적으로만 사용하여 + N 일 이후를 예측하는 방법
   - timestamp(30 minute)로 되어 있는 train 데이터를 + N 일 이후를 예측하는 데이터 셋으로 transform
   - 다양한 N시간의 회귀 모델을 만든 뒤 앙상블하는 방식도 고안
@@ -27,3 +27,7 @@
   - arima
   - prophet
   - lstm, bi-lstm
+
+## Commit version list
+
+- 
